@@ -1,6 +1,6 @@
 # BHernandezViewTool
 
-Various view-specific methods that I use in Rails applications
+>Various view-specific methods that I use in Rails applications
 
 ## Installation
 
@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+@copyright = BHernandezViewTool::Renderer.copyright("Bevin Hernandez", "All Rights Reserved")
+```
 
 ## Development
 
@@ -30,7 +32,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/b_hernandez_view_tool.
+Bug reports and pull requests are welcome on GitHub at https://github.com/bevinh/b_hernandez_view_tool.
 
 ## License
 
